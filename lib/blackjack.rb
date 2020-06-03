@@ -43,10 +43,11 @@ def hit?(num)
        input == 'h'
        new_card = deal_card.to_i
        sum = num + new_card
-       return sum
+      return sum
        prompt_user
     else 
        invalid_command
+       prompt_user
    end
 end
 
