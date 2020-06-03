@@ -38,11 +38,9 @@ def hit?(num)
   prompt_user
   input = get_user_input
     if input == 'h'
-        new_card = deal_card
-        old_total = initial_round
-        new_total = old_total + new_card
-        return new_total
-        prompt_user
+       new_total = deal_card + num
+       return new_total
+       prompt_user
       elsif
           input == 's'
         else 
