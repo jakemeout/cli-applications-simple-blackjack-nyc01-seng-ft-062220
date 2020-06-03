@@ -38,7 +38,7 @@ def hit?(num)
   prompt_user
   input = get_user_input
     if input == 's'
-      
+      return num.to_i
     elsif
        input == 'h'
        new_card = deal_card.to_i
