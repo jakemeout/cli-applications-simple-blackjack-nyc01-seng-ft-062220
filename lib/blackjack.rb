@@ -37,12 +37,17 @@ end
 def hit?(num)
   prompt_user
   input = get_user_input
-    if
-      elsif
-          input == 's'
-        else 
-          invalid_command
-      end
+    if input == 's'
+       puts num
+    elsif
+       input == 'h'
+       new_card = deal_card.to_i
+       sum = num + new_card
+       return sum
+       prompt_user
+    else 
+       invalid_command
+   end
 end
 
 def invalid_command
