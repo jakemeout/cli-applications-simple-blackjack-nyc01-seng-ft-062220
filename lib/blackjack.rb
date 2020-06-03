@@ -39,6 +39,7 @@ def hit?(num)
   input = get_user_input
     if input == 'h'
         new_deal = deal_card + initial_round
+        puts new_deal
         prompt_user
       elsif
           input == 's'
