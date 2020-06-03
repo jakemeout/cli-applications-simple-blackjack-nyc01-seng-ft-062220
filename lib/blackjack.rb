@@ -48,7 +48,7 @@ def hit?(num)
     else 
        invalid_command
        prompt_user
-       return num
+       return num.to_i
    end
    
 end
