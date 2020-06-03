@@ -60,7 +60,7 @@ end
 #####################################################
 
 def runner
-   welcome
-  
+   while welcome
+    
 end
     
