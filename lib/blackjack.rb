@@ -37,15 +37,15 @@ end
 def hit?(num)
   prompt_user
   input = get_user_input
-  if input == 'h'
-     new_deal = deal_card + initial_round
-     prompt_user
-   elsif
-     input == 's'
-   else 
-     invalid_command
-   end
-  end
+    if input == 'h'
+        new_deal = deal_card + initial_round
+        prompt_user
+      elsif
+          input == 's'
+        else 
+          invalid_command
+      end
+    end
 end
 
 def invalid_command
