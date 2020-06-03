@@ -60,7 +60,7 @@ end
 #####################################################
 
 def runner
-  return welcome
+   p welcome
   
 end
     
