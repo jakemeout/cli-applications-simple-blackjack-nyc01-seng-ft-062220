@@ -39,7 +39,6 @@ def hit?(num)
   input = get_user_input
     if input == 's'
       return num.to_i
-      prompt_user
     elsif
        input == 'h'
        new_card = deal_card.to_i
@@ -51,6 +50,7 @@ def hit?(num)
        prompt_user
        return num.to_i
    end
+   prompt_user
 end
 
 def invalid_command
